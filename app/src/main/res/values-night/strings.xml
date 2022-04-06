@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="not_a_member_sigup_now">Not a member? Sigup now</string>
+    <string name="signin">SignIn</string>
+    <string name="confirmar_senha">Confirmar Senha</string>
+    <string name="registrar">Registrar</string>
+    <string name="nome">Nome</string>
+    <string name="data_de_nascimento">Data de Nascimento</string>
+    <string name="nome_">Nome:</string>
+    <string name="email_">Email:</string>
+    <string name="idade_">Idade:</string>
+    <string name="bem_vindo">Bem vindo,</string>
+    <string name="email_example_com">email@example.com</string>
+    <string name="anos">anos</string>
+    <string name="t_tulo">Título</string>
+    <string name="remover_tudo">Remover tudo</string>
+    <string name="salvar">Salvar</string>
+    <string name="empty_list">Empty List</string>
+    <string name="add_your_note">Add your note</string>
+    <string name="update">Update</string>
+</resources>

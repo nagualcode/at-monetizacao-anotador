@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">PhotoBook Infnet</string>
+    <string name="login">Login</string>
+    <string name="titulolistagem">Usuario:</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">LogIn</string>
+    <string name="signup">SignUp</string>
+    <string name="not_a_member_sigup_now">Sign Up</string>
+    <string name="signin">SignIn</string>
+    <string name="confirmar_senha">Confirma Senha</string>
+    <string name="registrar">SignUp</string>
+    <string name="nome">Nome</string>
+    <string name="data_de_nascimento">Birthday</string>
+    <string name="nome_">Nome:</string>
+    <string name="email_">Email:</string>
+    <string name="idade_">Idade:</string>
+    <string name="email_example_com">email@gmail.com</string>
+    <string name="anos">anos</string>
+    <string name="t_tulo">Titulo</string>
+    <string name="remover_tudo">Remover Todas</string>
+    <string name="upload">upload</string>
+    <string name="empty_list">Empty List</string>
+    <string name="logout">logout</string>
+    <string name="add_your_note">Adicionar Foto</string>
+    <string name="update">Atualizar</string>
+</resources>

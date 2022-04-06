@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/signInFragment">
+
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="br.edu.infnet.photobook_infnet.ui.SignInFragment"
+        android:label="MyNotesApp"
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_signInFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_signInFragment_to_noteFragment"
+            app:destination="@id/noteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="br.edu.infnet.photobook_infnet.ui.SignUpFragment"
+        android:label="Create your account"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_registerFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/noteFragment"
+        android:name="br.edu.infnet.photobook_infnet.ui.FotoFragment"
+        android:label="My Notes"
+        tools:layout="@layout/fragment_foto" >
+        <action
+            android:id="@+id/action_noteFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+</navigation>

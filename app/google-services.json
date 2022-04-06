@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "925577985946",
+    "project_id": "photoappinfnet",
+    "storage_bucket": "photoappinfnet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925577985946:android:dec00fd7bb0c0db2248423",
+        "android_client_info": {
+          "package_name": "br.edu.infnet.photoappinfnet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925577985946-mc64uod2tg3mf8s6kb9r9c14logp319v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlLa0kNbTm45hGS-B7_0whknw0A102xYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925577985946-mc64uod2tg3mf8s6kb9r9c14logp319v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
