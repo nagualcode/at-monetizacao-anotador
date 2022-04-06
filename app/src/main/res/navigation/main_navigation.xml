@@ -8,7 +8,6 @@
     <fragment
         android:id="@+id/signInFragment"
         android:name="br.edu.infnet.photobook_infnet.ui.SignInFragment"
-        android:label="MyNotesApp"
         tools:layout="@layout/fragment_sign_in" >
         <action
             android:id="@+id/action_signInFragment_to_registerFragment"
@@ -20,7 +19,7 @@
     <fragment
         android:id="@+id/registerFragment"
         android:name="br.edu.infnet.photobook_infnet.ui.SignUpFragment"
-        android:label="Create your account"
+        android:label="Criar Conta"
         tools:layout="@layout/fragment_sign_up" >
         <action
             android:id="@+id/action_registerFragment_to_signInFragment"
@@ -29,7 +28,6 @@
     <fragment
         android:id="@+id/noteFragment"
         android:name="br.edu.infnet.photobook_infnet.ui.FotoFragment"
-        android:label="My Notes"
         tools:layout="@layout/fragment_foto" >
         <action
             android:id="@+id/action_noteFragment_to_signInFragment"
